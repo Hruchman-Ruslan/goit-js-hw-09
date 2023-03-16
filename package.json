@@ -15,7 +15,7 @@
   "author": "Hruchman-Ruslan <giovingo92@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hruchman-Ruslan/goit-js-hw-09/issues"
+    "url": "https://github.com/Hruchman-Ruslan/parcel-project-template/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
