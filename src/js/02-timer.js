@@ -37,7 +37,7 @@ startButtonRef.addEventListener('click', () => {
     const timerId = dataTime.selectedDates[0] - Date.now();
     const { days, hours, minutes, seconds } = convertMs(timerId);
 
-    if (timerId < 1000) {
+    if (timerId <= 0) {
       clearInterval(timerId);
     } else {
       daysRef.textContent = addLeadingZero(`${days}`);
