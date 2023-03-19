@@ -24,7 +24,7 @@ const options = {
   },
 };
 
-const dataTime = flatpickr(inputRef, options);
+let dataTime = flatpickr(inputRef, options);
 
 const addLeadingZero = value => {
   return String(value).padStart(2, '0');
