@@ -33,7 +33,7 @@ const addLeadingZero = value => {
 startButtonRef.addEventListener('click', () => {
   inputRef.disabled = true;
   startButtonRef.disabled = true;
-  setInterval(() => {
+  setTimeout(() => {
     const timerId = dataTime.selectedDates[0] - Date.now();
     const { days, hours, minutes, seconds } = convertMs(timerId);
 
